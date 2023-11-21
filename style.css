@@ -1,0 +1,36 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 1rem 7%;
+  
+
+}
+.logo{
+  margin-right: 100px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  padding: 7px 13px;
+  border-radius: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a.active,a:hover{
+  background: burlywood;
+  transition: .5s;
+}
+
