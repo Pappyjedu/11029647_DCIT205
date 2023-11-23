@@ -39,20 +39,19 @@ nav ul li a.active,a:hover{
   font-size: 18px;
   margin-bottom: 1%;
   margin-left: 7%;
+  margin-right: px;
   background-image: url(./assets/1.jpg);
-  background-color: white;
-  width: 76%;
-  padding: 4rem 5%;
+  background-color: rgb(171, 79, 79);
+  width: 85%;
   background-repeat: no-repeat;
-  background-size:contain;
+  
+  background-size: 100% 100%;
   background-position: center;
   animation: slide 50s infinite;
-  height: 50vh;
-  object-fit: cover;
+  height: 70vh;
+  
 }
-.slider img{
-  width: 100%;
-}
+
 
 
 @keyframes slide {
