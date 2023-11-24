@@ -196,7 +196,7 @@ footer a{
   transition: all 0.3s ease;
 }
 footer a:hover{
-  color: #4306eb;
+  color: black;
 }
 .email a{
   text-decoration: none;
@@ -230,7 +230,44 @@ footer a:hover{
 text-decoration: none;
 color: black;
 }
-.event a.active,a:hover{
-  background: white;
+.event a:hover{
+  color: black;
   transition: .5s;
+}
+.event{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-position: center;
+  margin-top: 5%;
+}
+
+.eventimg{
+  background-image: url(./assets/hack1.jpg);
+  background-size: 500px 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 35%;
+}
+
+.event_txt{
+  margin-top:1%;
+}
+.event_txt h2{
+  font-size: 30px;
+}
+.event_txt a{
+  text-decoration: burlywood;
+}
+.courses{
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.courses h2{
+  font-size: 30px;
+}
+.courses p{
+
 }
