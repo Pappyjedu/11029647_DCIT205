@@ -392,7 +392,7 @@ footer a:hover {
   margin-right: 35%;
 }
 .bounce {
-  animation: bounce 2s infinite;
+  animation: bounce 5s infinite;
 }
 
 @keyframes bounce {
@@ -508,3 +508,71 @@ margin-left: 25%;
   text-decoration: solid;
   list-style-type: none;
 }
+
+.p_header {
+  background-color: white;
+  width: 75%;
+  height: 300px;
+  font-weight: 1000;
+  display: flex;
+  align-items: flex-end;
+  padding: 4rem 5%;
+  margin-left: 7%;
+  position: relative;
+
+}
+
+.p_header::before {
+  background-image: url(./assets/7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+  content: '';
+  filter: blur(8px);
+
+}
+
+.p_text {
+  isolation: isolate;
+  color: #fff;
+  font-size: 50px;
+}
+
+.under{
+  margin-top: 5%;
+}
+
+.under h1{
+  margin-left: 25%;
+}
+
+.p_under{
+  margin-left: 5%;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.p_img{
+  background-image: url(./assets/g1.jpeg);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 85%;
+  background-repeat: no-repeat;
+  margin-left: 1%;
+  margin-top: 10%;
+}
+
+.p_txt{
+  width: 75%;
+}
+
+.masters{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+
+
