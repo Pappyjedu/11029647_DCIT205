@@ -574,5 +574,50 @@ margin-left: 25%;
   width: 100%;
 }
 
+.past_event{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+}
+
+.event1{
+  background-image: url(./assets/hack1.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 85%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 1%;
+}
+
+.event2{
+  background-image: url(./assets/hack2.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 85%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 1%;
+}
+
+.event3{
+  background-image: url(./assets/hack3.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 85%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 1%;
+}
+
+.event4{
+  background-image: url(./assets/hack4.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 85%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 1%;
+}
 
 
